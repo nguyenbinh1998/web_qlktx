@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="{% static 'web_ql_ktx/register.css' %}">
+    <title>Register Page</title>
+</head>
+<body>
+    <div class="box-form">
+        <div class="left">
+            <div class="overlay">
+            <h1></h1>
+            <p</p>
+            <div class="buttn">			
+            </div>
+            </div>
+        </div>
+        
+        
+            <div class="right">
+            <h5>Đăng ký</h5>
+            <p>Bạn đã có tài khoản? <a href="{% url 'login' %}"> Đăng nhập tại đây</a></p>
+            <div class="inputs">
+                <input type="number" placeholder="Mã số sinh viên">
+                <input type="text" placeholder="Họ và tên">
+                <input type="email" placeholder="Email">
+                <br>
+                <input type="password" placeholder="Nhập mật khẩu">
+                <input type="password" placeholder="Nhập lại mật khẩu">
+            </div>
+                
+                <br><br>
+                
+            <div class="remember-me--forget-password">
+                    <!-- Angular -->
+        <!-- <label>
+            <input type="checkbox" name="item" checked/>
+            <span class="text-checkbox">Lưu </span>
+        </label> -->
+                
+            </div>
+                
+                <br>
+                <button>Đăng ký</button>
+        </div>
+        
+    </div>
+    <!-- partial -->
+      
+</body>
+</html>

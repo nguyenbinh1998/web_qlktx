@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins" sans-serif;
+}
+
+/* .navbar {
+    padding: .8rem;
+} */
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1rem !important;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+
+.padding{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top:  .8rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 992px){
+    .social a{
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+.display-4{
+    font-size: 300%;
+}
+
+@media(max-width: 768px){
+
+}
+
+@media(max-width:576px){
+
+}
+
+
+
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+figure{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+}
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#fixed {
+    background-image: url("img/mac.png");
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.img-brand{
+    width: 200px;
+}
+
+.display-2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.3;
+    background: #009dea;
+    font-family: 'Oswald',serif;
+}
+
+.card-body{
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+}
+.card{
+    margin: 20px 10px;
+}
+.card-body a{
+    color: #0c7f90;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+}
+.card-body a:hover{
+    color: #63a6b0 !important;
+    text-decoration: none;
+}
+
+.card{
+    margin: 0px;
+}
+
+[class*="col-"]{
+    padding: 0px;
+}
